@@ -63,3 +63,15 @@ offensive acticvities were done on my virtual machine I made in class on my pers
 - External DNS Query
 ---
 ## Suricata Log Analysis
+
+suricata rpoduced alerts for 
+- Port Scans
+- Suspicious DNS queries
+- Outbound HTTP requests
+- IDS test signatures
+
+### Nmap Scan Alerts
+
+---
+## Cowrie Honeypot Analysis
+Used as the **Iseri** (Garifuna for eye) for the project. Captures attacker behavior inside a false SSH shell
