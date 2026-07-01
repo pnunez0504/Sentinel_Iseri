@@ -39,11 +39,15 @@ Cowrie captures attacker behavior inside a fake SSH shell.
 
 Suricata was configured to monitor the Pi’s wireless interface:
 
-af-packet:\
----interface:wlan0
----cluster-id:99
-cluster-type:cluster_flow
-
-**rulset updated using sudo suricata-update**
-**Logs used for report**
+af-packet:
+- interface:wlan0
+- cluster-id:99
+- cluster-type:cluster_flow
+Rulset updated using **sudo suricata-update**\
+---
+##Logs used for report
+/var/log/suricata/fast.log - Readable Alerts for context
+/var/log/suricata/eve.json - json content with metadata for other uses
+/var/log/cowrie/cowrie.json -json log for Honeypot
+/var/log/cowrie/tty/ - attacker records and transcripts
 
