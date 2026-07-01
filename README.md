@@ -46,7 +46,7 @@ af-packet:
 Rulset updated using **sudo suricata-update**
 ---
 
-##Logs used for report
+## Logs used for report
 
 /var/log/suricata/fast.log - Readable Alerts for context
 /var/log/suricata/eve.json - json content with metadata for other uses
