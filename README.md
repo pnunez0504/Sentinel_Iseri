@@ -48,8 +48,18 @@ Rulset updated using **sudo suricata-update**
 
 ## Logs used for report
 
-/var/log/suricata/fast.log - Readable Alerts for context
-/var/log/suricata/eve.json - json content with metadata for other uses
-/var/log/cowrie/cowrie.json -json log for Honeypot
-/var/log/cowrie/tty/ - attacker records and transcripts
+- /var/log/suricata/fast.log - Readable Alerts for context
+- /var/log/suricata/eve.json - json content with metadata for other uses
+- /var/log/cowrie/cowrie.json -json log for Honeypot
+- /var/log/cowrie/tty/ - attacker records and transcripts
 
+---
+# Attack Simulations
+offensive acticvities were done on my virtual machine I made in class on my personal computer to capture real traffic. The actions are listed below
+- Nmap SYN Scan+
+- Nmap Version Scan
+- Suricata Test Alert
+- Outbound Download Through HTTP
+- External DNS Query
+---
+## Suricata Log Analysis
