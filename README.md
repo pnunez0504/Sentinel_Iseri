@@ -71,6 +71,11 @@ suricata rpoduced alerts for
 - IDS test signatures
 
 ### Nmap Scan Alerts
+<img width="1088" height="692" alt="suricata_sV" src="https://github.com/user-attachments/assets/05d98165-2359-4101-938f-058f8c0f4641" />
+<img width="744" height="210" alt="cowrie_sV" src="https://github.com/user-attachments/assets/78c5aaef-d185-4384-9748-c8c1f3eecc8d" />
+<img width="1091" height="957" alt="suricata_O" src="https://github.com/user-attachments/assets/e80a409c-d224-46f7-b41c-774a2bfab8fc" />
+<img width="1037" height="702" alt="suricata_sS" src="https://github.com/user-attachments/assets/d5ebcec1-8e56-4650-8f2b-0fa505a6cfaf" />
+
 
 ---
 ## Cowrie Honeypot Analysis
